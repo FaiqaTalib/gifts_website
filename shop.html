@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VelvetWrap - Premium Gift Shop</title>
+   <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Jquery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- favicon icon-->
+ <link rel="shortcut icon" href="css/logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="preloader-logo">VelvetWrap</div>
+  <div class="preloader-bar"><div class="preloader-fill"></div></div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-velvet">
+  <div class="container">
+    <a class="navbar-brand navbar-brand-text" href="index.html">Velvet<span>Wrap</span></a>
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+  <div class="toggler-lines">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto gap-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="brands.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-3">
+        <a href="signin.html" class="btn-outline-gold btn">Sign In</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!-- shop container -->
+ <div class="page-header text-center">
+  <h1>Our Shop</h1>
+  <ul class="breadcrumb-velvet justify-content-center mt-2">
+    <li><a href="index.html">Home</a></li>
+    <li>Shop</li>
+  </ul>
+</div>
+<!-- index page product cards -->
+ <section class="section-padding" style="background:#0D0D0D;">
+  <div class="container">
+    <p class="text-gold text-center" style="letter-spacing:4px; font-size:0.78rem; text-transform:uppercase;">Handpicked For You</p>
+    <h2 class="section-title fade-up">Featured Products</h2>
+    <div class="gold-divider"></div>
+    <p class="section-subtitle fade-up">Our bestselling gift selections loved by thousands</p>
+   <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-1">
+        <a href="shop.html?id=1" class="product-link">
+        <div class="product-card" data-category="luxury-hampers" data-brand="lals">
+          <span class="product-card-badge new">New</span>  
+          <div class="product-img-wrap">
+            <img src="css/Hamper.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">LALS</p>
+            <h5 class="product-name">Grand Wedding Hamper</h5>
+            <p class="product-desc"> It has everything that they would desire and can enjoy in days after.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              <span>4.0 (100 Reviews)</span>
+            </div>
+
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 15,000</span><span class="product-price-old">PKR 19,000</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-2">
+        <a href="shop.html?id=2" class="product-link">
+        <div class="product-card" data-category="luxury-hampers" data-brand="lals">
+          <span class="product-card-badge sale">Sale</span>
+          <div class="product-img-wrap">
+            <img src="css/Per.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">VelvetBox</p>
+            <h5 class="product-name">Indulgence Gift Set</h5>
+            <p class="product-desc"> Add a heartfelt note on the complimentary greeting card to make your gift pretty and memorable.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>4.5 (130 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 6,700</span><span class="product-price-old">PKR 8,100</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-3">
+         <a href="shop.html?id=3" class="product-link">
+        <div class="product-card" data-category="luxury-hampers" data-brand="lals">
+          <span class="product-card-badge hot">Hot</span>
+          <div class="product-img-wrap">
+            <img src="css/F.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">VelvetBox</p>
+            <h5 class="product-name">Flower Bouquet</h5>
+            <p class="product-desc">Thoughtfully styled in a round onyx box, this piece is timeless, elegant, and perfect for Valentine's Day.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 4,700</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=4" class="product-link">
+        <div class="product-card" data-category="candles&spa" data-brand="sentimentsexpress">
+          <div class="product-img-wrap">
+            <img src="css/cs.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">SentimentsExpress</p>
+            <h5 class="product-name">Outdoor Candle</h5>
+            <p class="product-desc">Perfect for creating ambiance and relaxation in any space. Send it as a gift now!</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>4.5 (130 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 23,700</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 5 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=5" class="product-link">
+        <div class="product-card" data-category="candles&spa" data-brand="candlecompany">
+          <div class="product-img-wrap">
+            <img src="css/cs1.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">CandleCompany</p>
+            <h5 class="product-name">Mini Candle Gift Box</h5>
+            <p class="product-desc">A set of three mini scented candles with our best-selling scents.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 2,499</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 6 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=6" class="product-link">
+        <div class="product-card" data-category="floral-arrangements" data-brand="zerritta-flowers">
+          <div class="product-img-wrap">
+            <img src="css/F1.jpg" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">ZERRITTA FLOWERS</p>
+            <h5 class="product-name">Flourish Flower Bouquet</h5>
+            <p class="product-desc">When was the last time you said 'I love you' for the first time to someone?</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 22,640</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 7 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=7" class="product-link">
+        <div class="product-card" data-category="luxury-hampers" data-brand="bombaydryfruits">
+          <div class="product-img-wrap">
+            <img src="css/Per2.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">BombayDryFruits</p>
+            <h5 class="product-name">Serenity Hamper</h5>
+            <p class="product-desc">Guilt-free delights and gourmet pleasures - beautifully packed for mindful gifting</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 15,050</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 8 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=8" class="product-link">
+        <div class="product-card" data-category="personalized-gifts" data-brand="lals">
+          <div class="product-img-wrap">
+            <img src="css/Per1.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">LALS</p>
+            <h5 class="product-name">Classic Teal (9 Pcs)</h5>
+            <p class="product-desc">Our classic teal box is an elegant, sophisticated gift filled with delicious, fresh & handmade chocolates.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 2,000</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 9 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=9" class="product-link">
+        <div class="product-card" data-category="personalized-gifts" data-brand="bombaydryfruits">
+          <div class="product-img-wrap">
+            <img src="css/Hamper2.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">BombayDryFruits</p>
+            <h5 class="product-name">Golden Gourmet Basket</h5>
+            <p class="product-desc">Luxury snacking, elevated. Beautifully packed gift baskets with a mix of sweet, savory, and stylish.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 16,400</span><span class="product-price-old">PKR 20,900</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 10 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=10" class="product-link">
+        <div class="product-card" data-category="luxury-hampers" data-brand="bombaydryfruits">
+          <div class="product-img-wrap">
+            <img src="css/Hamper1.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">BombayDryFruits</p>
+            <h5 class="product-name">Happy Hamper</h5>
+            <p class="product-desc"> Enjoy the rich indulgence of sweet treats, savory snacks, and wholesome goodness.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>4.5 (130 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 10,020</span><span class="product-price-old">PKR 15,900</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 11 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=11" class="product-link">
+        <div class="product-card" data-category="personalized-gifts" data-brand="lals">
+          <div class="product-img-wrap">
+            <img src="css/hamper3.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">LALS</p>
+            <h5 class="product-name">Wedding Essentials Basket</h5>
+            <p class="product-desc">It can also serve as a lovely gesture for pre-wedding festivities ensuring the couple feels cherished at every step.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              <span>4.0 (100 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 14,000</span><span class="product-price-old">PKR 15,900</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 12 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=12" class="product-link">
+        <div class="product-card" data-category="jewellery" data-brand="zeesy">
+          <div class="product-img-wrap">
+            <img src="css/j1.png" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">zeesy</p>
+            <h5 class="product-name">Meridian Necklace Set</h5>
+            <p class="product-desc">To maintain the beautiful shine of your jewelry, gently wipe it with a soft cloth after each wear.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>4.5 (130 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 2,850</span><span class="product-price-old">PKR 4,900</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 13 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=13" class="product-link">
+        <div class="product-card" data-category="jewellery" data-brand="zeesy">
+          <div class="product-img-wrap">
+            <img src="css/j2.jpg" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">zeesy</p>
+            <h5 class="product-name">Tory Cubic Zircon Jewelry Set</h5>
+            <p class="product-desc">Everyday wear, office attire, and sophisticated casual styling , Achieving an instantly coordinated and polished look.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 3,500</span><span class="product-price-old">PKR 5,000</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 14 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=14" class="product-link">
+        <div class="product-card" data-category="jewellery" data-brand="zeesy">
+          <div class="product-img-wrap">
+            <img src="css/j3.png" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">zeesy</p>
+            <h5 class="product-name">Starling Moissanite Charm Style</h5>
+            <p class="product-desc">Layering seamlessly with watches or other chains, or you can easily tireup in neck with other sources,Adding a delicate, high-brilliance accent.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 3,600</span><span class="product-price-old">PKR 6,000</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 15 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=15" class="product-link">
+        <div class="product-card" data-category="jewellery" data-brand="zeesy">
+          <div class="product-img-wrap">
+            <img src="css/j4.jpg" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">zeesy</p>
+            <h5 class="product-name">Tory Cubic Zircon Jewelry Set</h5>
+            <p class="product-desc">The Tory Cubic Zircon Jewelry Set is a must-have for a collection dedicated to extraordinary quality and seamless style.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 5,000</span><span class="product-price-old">PKR 8,000</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 16 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=16" class="product-link">
+        <div class="product-card" data-category="Chocolates" data-brand="lals">
+          <div class="product-img-wrap">
+            <img src="css/sw.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">LALS</p>
+            <h5 class="product-name">Orange Dark Chocolate Cake</h5>
+            <p class="product-desc">A lovely choice for those who enjoy something a little different on the table, and perfect for sharing slice by slice.
+            2.4 lbs | 7 inches | serves 8 to 10 people</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              <span>4.0 (100 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 3,900</span><span class="product-price-old">PKR 4,500</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 17 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=17" class="product-link">
+        <div class="product-card" data-category="Chocolates" data-brand="lals">
+          <div class="product-img-wrap">
+            <img src="css/sw1.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">LALS</p>
+            <h5 class="product-name">Hazelnut Dark Chocolate Bar</h5>
+            <p class="product-desc">Our Chocolate Bar brings together roasted and caramelised Turkish hazelnuts with 56% dark chocolate for a deeply experience.This is an 80g bar.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 1,500</span><span class="product-price-old">PKR 2,000</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 18 -->
+      <div class="col-lg-3 col-md-6 fade-up delay-4">
+        <a href="shop.html?id=18" class="product-link">
+        <div class="product-card" data-category="decor" data-brand="mart">
+          <div class="product-img-wrap">
+            <img src="css/H.webp" alt="product" />
+            <div class="product-overlay">
+              <button class="overlay-btn btn-wishlist"><i class="far fa-heart"></i></button>
+              <button class="overlay-btn btn-add-cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">MART89</p>
+            <h5 class="product-name">Gold Tree with Marble Base</h5>
+            <p class="product-desc">Perfect for compact console tables, shelves, or office desks, this décor piece delivers sophistication in a smaller, versatile size ideal for layered styling.</p>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>5.0 (150 Reviews)</span>
+            </div>
+            <div class="product-price-wrap">
+              <div><span class="product-price">PKR 29,900</span><span class="product-price-old">PKR 37,375</span></div>
+              <button class="btn-dark-velvet btn btn-add-cart" style="padding:8px 14px; font-size:0.75rem;">ADD</button>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+ <footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-logo">VelvetWrap</div>
+        <p class="footer-desc">Your destination for premium, curated gift experiences. Turning ordinary moments into extraordinary memories since 2018.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-title">Customer Care</h6>
+        <ul class="footer-links">
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6 class="footer-title">Get In Touch</h6>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+          <span class="footer-contact-text">Shop #XX, XYZ place<br> Karachi, Pakistan</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon"><i class="fas fa-phone-alt"></i></span>
+          <span class="footer-contact-text">+92-XXX-XXXXXXX</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon"><i class="fas fa-envelope"></i></span>
+          <span class="footer-contact-text">velvetwrap@gmail.com</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon"><i class="fas fa-clock"></i></span>
+          <span class="footer-contact-text">Mon-Sat: 10AM - 9PM<br>Sunday: 12PM - 6PM</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 VelvetWrap. All Rights Reserved.</p>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+
+
+<button id="backToTop"><i class="fas fa-chevron-up"></i></button>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<script src="js/main.js"></script>
+</html>
